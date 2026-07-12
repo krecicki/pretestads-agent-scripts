@@ -1,0 +1,20 @@
+{
+  "name": "pretestads-agent-scripts",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Score ads with the PreTestAds neural model from any LLM agent, paid per-request via x402 (USDC).",
+  "dependencies": {
+    "viem": "^2.21.0",
+    "x402-fetch": "^0.4.0"
+  },
+  "optionalDependencies": {
+    "@anthropic-ai/sdk": "^0.39.0",
+    "@google/genai": "^1.0.0",
+    "@langchain/core": "^0.3.0",
+    "@langchain/openai": "^0.3.0",
+    "ai": "^4.0.0",
+    "openai": "^4.80.0",
+    "zod": "^3.24.0"
+  }
+}

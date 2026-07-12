@@ -1,0 +1,9 @@
+httpx>=0.27
+x402[evm,svm]>=0.2
+
+# Optional — install only for the agent example you run:
+# openai>=1.40          # openai_agent.py
+# anthropic>=0.34       # anthropic_agent.py
+# google-genai>=1.0     # gemini_agent.py
+# langchain>=0.3        # langchain_tool.py (+ langchain-openai)
+# crewai>=0.80          # crewai_tool.py

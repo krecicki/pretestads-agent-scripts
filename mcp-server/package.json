@@ -1,0 +1,13 @@
+{
+  "name": "pretestads-mcp-server",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "bin": { "pretestads-mcp": "server.mjs" },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.10.0",
+    "viem": "^2.21.0",
+    "x402-fetch": "^0.4.0",
+    "zod": "^3.24.0"
+  }
+}
