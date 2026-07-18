@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-07-09/server.schema.json",
+  "name": "io.github.krecicki/pretestads",
+  "description": "Score video/image ads before you spend — predicted second-by-second attention benchmarked against 76 top TikTok ads. Hosted MCP (OAuth, account credits) or local server paying $5 USDC/run via x402.",
+  "version": "1.0.0",
+  "websiteUrl": "https://pretestads.com/agent-toolkit",
+  "repository": {
+    "url": "https://github.com/krecicki/pretestads-agent-scripts",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://pretestads.com/mcp"
+    }
+  ]
+}
